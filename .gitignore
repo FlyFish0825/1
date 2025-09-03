@@ -51,3 +51,15 @@ build/.cmake/api/v1/reply/directory-.-Debug-ff4793ed3c59d13a91e6.json
 build/.cmake/api/v1/reply/index-2025-09-03T05-37-13-0919.json
 build/.cmake/api/v1/reply/target-main-Debug-ca8d215d2d5232b10dc2.json
 build/.cmake/api/v1/reply/toolchains-v1-2d27b943d188e21a72e1.json
+.cache/clangd/index/hello.c.442E4B4886B2B50D.idx
+.cache/clangd/index/hello.h.A41C34BD40832BB4.idx
+.cache/clangd/index/main.c.1D24664EC269607E.idx
+.vscode/settings.json
+build/.cmake/api/v1/reply/cache-v2-2f26ce852dcf50eb6fef.json
+build/.cmake/api/v1/reply/cmakeFiles-v1-8a5832a13df4e159c985.json
+build/.cmake/api/v1/reply/codemodel-v2-9c8fcf70eef1c4340368.json
+build/.cmake/api/v1/reply/directory-.-Debug-f4ced66a23e8a3fdcf4b.json
+build/.cmake/api/v1/reply/index-2025-09-03T06-51-48-0276.json
+build/.cmake/api/v1/reply/target-main-Debug-570ef8aaf4148c420671.json
+build/.cmake/api/v1/reply/toolchains-v1-dcc818d5a95abda29c43.json
+build/CMakeFiles/main.dir/link.txt
