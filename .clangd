@@ -2,7 +2,7 @@ CompileFlags:
   Add: 
   #添加头文件
     - "-IC:/Users/Administered/.eide/tools/gcc_arm/arm-none-eabi/include"         # 系统C++头文件路径
-    
+    - "-IC:/Users/Admin/.eide/tools/gcc_arm/arm-none-eabi/include" 
 
     #预定义宏
     - "-DSTM32F407xx"  # 定义MCU型号

@@ -63,4 +63,16 @@ build/.cmake/api/v1/reply/index-2025-09-03T06-51-48-0276.json
 build/.cmake/api/v1/reply/target-main-Debug-570ef8aaf4148c420671.json
 build/.cmake/api/v1/reply/toolchains-v1-dcc818d5a95abda29c43.json
 build/CMakeFiles/main.dir/link.txt
+<<<<<<< HEAD
 build/.cmake/api/v1/reply/index-2025-09-04T02-46-03-0953.json
+=======
+.cache/clangd/index/hello.c.E3C701B6974C77F5.idx
+.cache/clangd/index/hello.h.7037B7F13322A3EC.idx
+.cache/clangd/index/main.c.12E1910726BEA7DB.idx
+.cache/clangd/index/Mymath.h.DE64E7A1D83D0E31.idx
+build/CMakeFiles/4.1.0/CMakeCCompiler.cmake
+build/CMakeFiles/4.1.0/CMakeDetermineCompilerABI_C.bin
+build/CMakeFiles/4.1.0/CMakeRCCompiler.cmake
+build/CMakeFiles/4.1.0/CMakeSystem.cmake
+build/CMakeFiles/4.1.0/CompilerIdC/a.exe
+>>>>>>> dc5899abda89b4a6a27b6e1e8c596970e9ec4f7b
