@@ -16,14 +16,13 @@ set(CMAKE_CXX_COMPILER "D:/w64devkit/bin/g++")
 # 添加编译选项
 add_compile_options(-Wall -Wextra)
 
+#直接在命令行中看到 -I 选项
+set(CMAKE_USE_RESPONSE_FILE_INCLUDES OFF)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# 添加头文件搜索路径
-include_directories(
-    ${CMAKE_SOURCE_DIR}/inc
-    D:/w64devkit/bin/include
-    )
+
+
 
 # 收集源文件
 file(GLOB SOURCES 
@@ -37,11 +36,13 @@ add_executable(
     ${SOURCES}
     )
 
-# 如果需要链接库文件，可以使用 target_link_libraries
-# target_link_libraries(${PROJECT_NAME} 
-#     PRIVATE
-#         some_library
-# )
+target_include_directories(${PROJECT_NAME} PRIVATE 
+    
+    ${CMAKE_SOURCE_DIR}/inc
+    D:/w64devkit/bin/include
+    ${CMAKE_SOURCE_DIR}/../../
+    
+)
 
 # 安装规则
 install(TARGETS ${PROJECT_NAME}
